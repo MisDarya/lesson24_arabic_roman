@@ -3,7 +3,7 @@ from roman import *
 t = ['IV', 'LVIII', 'MCMXCIV', 'XCIX', 'LXXX', 'LXIX']
 print('\nИсходные данные: ', t)
 
-print('\nКонвертируем из Римскмх в Арабские:')
+print('\nКонвертируем из Римских в Арабские:')
 for i in t:
   print(' ', i, '->' ,roman_to_int(i))
 
